@@ -1,0 +1,115 @@
+/* body{
+    background-color: pink;
+} */
+/* .header{
+    border-style: solid;
+} */
+.header-nav-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 20px 0px;
+}
+/* les listes de contact ne s´affiche pas */
+.menu-dropdown-liste{
+    display: none;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 20%;
+    padding-left: 1%;
+}
+.header-nav-menu{
+    text-decoration: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* tnahi el nokta mtaa el lien */
+    list-style: none;
+}
+.menu-dropdown:hover .menu-dropdown-liste{
+    display: block;
+}
+.menu-dropdown-liste a {
+    /* les listes ywaliw taht baadhhom */
+    display: block;
+}
+a {
+    /* tnahi el star mtar lien */
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* border: solid; */
+    height: 400px;
+    position: relative;
+}
+.box1{
+    margin-top: 130px;  
+    margin-left: 20px;
+    position: absolute;
+}
+.box2{
+     left: 550px;
+     position: absolute;
+}
+.main-section-span-span{
+    color: rgb(136, 160, 221);
+}
+
+h3{
+    text-align: center;
+    font-size: large;
+    font-family:arial;
+}
+.main-section2{
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: solid black; */
+    top: 400px;
+    margin-left: 70px;
+    width: 1100px;
+    height: 1000px;
+}
+.main-section2 > div{
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.footer{
+    position: absolute;
+    top: 1448px;
+    background-color: rgb(246, 14, 14);
+    width: 1250px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.footer > section{
+    /* border: solid black; */
+    width: 600px;
+    height: 300px;
+}
+.footer1{
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+.footer1 > h1,h5{
+    margin-left: 40px;
+    margin-top: 40px;
+}
