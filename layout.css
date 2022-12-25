@@ -1,9 +1,13 @@
 /* body{
     background-color: pink;
 } */
-/* .header{
+.header{
     border-style: solid;
-} */
+    
+}
+body{
+    margin: 0%;
+}
 .header-nav-img{
     width: 50px;
     height: 50px;
@@ -12,7 +16,7 @@
 header > nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 20px 20px 0px;
+    
 }
 /* les listes de contact ne s´affiche pas */
 .menu-dropdown-liste{
@@ -29,18 +33,15 @@ header > nav{
     width: 500px;
     display: flex;
     justify-content: space-between;
-    /* tnahi el nokta mtaa el lien */
     list-style: none;
 }
 .menu-dropdown:hover .menu-dropdown-liste{
     display: block;
 }
 .menu-dropdown-liste a {
-    /* les listes ywaliw taht baadhhom */
     display: block;
 }
 a {
-    /* tnahi el star mtar lien */
     text-decoration: none;
     color: black;
 }
@@ -100,11 +101,15 @@ h3{
     height: 400px;
 }
 .footer > section{
-    /* border: solid black; */
+    border: solid black;
     width: 600px;
     height: 300px;
 }
 .footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
     text-align: left;
     color: white;
     font-size: larger;
@@ -112,4 +117,50 @@ h3{
 .footer1 > h1,h5{
     margin-left: 40px;
     margin-top: 40px;
+}
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    border: solid black;
+    padding: 10px;
+  }
+form > div{
+    border: solid black;
+    color: white;
+}
+.item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+input{ 
+    background-color: red;
+    color: white;
+}
+.footer-section-div{
+    border: solid black;
+    width: 400px;
+    height: 100px;
+}
+
+.navbar{
+    background-color: tomato;
+    
+}
+input{
+    
+    border-radius: 20px;
+    border-color: aliceblue;
 }
