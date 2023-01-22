@@ -12,38 +12,33 @@
         <nav class="navbar navbar-expand-lg ">
             <!-- <a href="file:///C:/Users/HP/Desktop/go%20my%20code/jeu/HTML.html"></a> -->
             <img class="header-nav-img" src="logo.jpg">
-            
                 <div class="container-fluid">
-                 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                      
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">Home</a>
                           </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">About</a>
                           </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Project</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                          Contact
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">link 1</a></li>
+                          <li><a class="dropdown-item" href="#">link 2</a></li>
+                          <li><a class="dropdown-item" href="#">link 3</a></li>
                         </ul>
                       </li>
-                      
+                     
                     </ul>
-                    
                   </div>
-                </div>
-             
+            </div>
             <!-- <ul class="header-nav-menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -62,8 +57,8 @@
     <br>
     <main class="main">
         <section class="main-section1">
-            <span class="box1"><h1>Want to learn  <span class="main-section1-span-span"> CSS ?</span><br>Join us for more videos.</h1>
-            <button type="button" class="btn btn-light">watch video<a href="https://youtu.be/znqUwx0b0HI" target="_blank"></a></button></span>
+            <span class="box1"><h1 class="box1-h1">Want to learn  <span class="main-section1-span"> CSS </span>?<br>Join us for more videos.</h1>
+            <button class="left-session-button">Watch video</button></span>
             <span class="box2"><iframe width="680" height="400" src="https://www.youtube.com/embed/znqUwx0b0HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
         </section>
         <section class="main-section2">
@@ -81,28 +76,39 @@
         <form>
             <div class="item1">
                 <label >Name</label><br>
-                <input type="text" name="Name" >
+                <input class="input1"type="text" id="inputName" >
             </div>
             <div class="item2">
-                <label >Name</label><br>
-                <input type="text" name="Name" >
+                <label >LastName</label><br>
+                <input class="input2"type="text" id="inputLastName" >
             </div>
             <div class="item3">
-                <label >Name</label>
-                <input type="text" name="Name" >
+                <label >Phone</label><br>
+                <input class="input3" type="number" id="inputNumber" >
             </div>
             <div class="item4">
-                <label >Name</label>
-                <input type="text" name="Name" >
+                <label >Email</label><br>
+                <input class="input4" type="email" id="inputemail" >
             </div>
             <div class="item5">
-                <label >Name</label>
-                <input type="text" name="Name" >
+                <label >Lieu de la formation</label><br>
+                <select id="inputFormation">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
             </div>
             <div class="item6">
-                <label >Name</label>
-                <input type="text" name="Name" >
+                <label >Product</label><br>
+                <select  id="inputProduct">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
             </div>
+            <input class="submit" type="button" value="submit" />
         </form>
         </section>
     </footer>
